@@ -109,7 +109,7 @@ In addition to annotated discharge notes, MIPA provides a **structured feature d
 - **EHR structured data:**
    Access requires **CITI training** and **PhysioNet approval** for **MIMIC-IV v2.2**.
    Parsing and processing pipelines are available in the **MIPA** repository:
-   https://github.com/MIPA
+   https://github.com/open-health-data-lab/MIPA
 
 ------
 
