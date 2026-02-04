@@ -122,7 +122,7 @@ Supported by **Fonds de recherche du Québec – Santé (FRQS).**
 # MIMIC-IV Phenotype Atlas (MIPA) – Data Card
 
 **Citation (recommended):**  
-Yamga E, et al. *MIMIC-IV Phenotype Atlas (MIPA): A Benchmark Dataset for EHR Phenotyping.* 
+Yamga, E., Goudrar, R. & Després, P. *MIMIC-IV Phenotype Atlas (MIPA) Datacard.* GitHub repository (2025). https://github.com/open-health-data-lab/MIPA-datacard 
 
 **DOI:**
 
