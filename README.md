@@ -110,6 +110,10 @@ In addition to annotated discharge notes, MIPA provides a **structured feature d
   - `data/cohort/train/indexes/`
   - `data/cohort/test_val/indexes/`
   - `data/cohort/test_val/patient_grouped_split.csv`
+- **Benchmark inputs:**
+  - `data/benchmark/gpt4o_predictions.csv`: GPT-4o zero-shot predictions (0/1) for every summary and phenotype, as used in the paper (no note text).
+  - `data/benchmark/icd_codes.sql`: query extracting the ICD codes of the gold admissions (credentialed access).
+  - Benchmark scripts: `benchmark/` in the [MIPA repository](https://github.com/open-health-data-lab/MIPA).
 - **Clinical notes:**
    Access requires **CITI training** and **PhysioNet approval** for **MIMIC-IV v2.2**.
    Notes can be extracted using the provided script in `data/notes/notes.sql`.
@@ -153,3 +157,4 @@ Yamga, E., Goudrar, R. & Després, P. *MIMIC-IV Phenotype Atlas (MIPA) Datacard.
 - Splits: the gold validation/test split is 50/50 per phenotype at the admission level (previously described as 40/60, patient level). The index files are unchanged. Added `patient_grouped_split.csv` for patient-level separation.
 - Features: UMLS concept filter is the 20th percentile (previously described as 10th); counts are normalised by length of stay.
 - Added operational definitions for metastatic cancer, complication versus history labels, and depression.
+- Added GPT-4o predictions and the ICD extraction query, so that the zero-shot benchmark can be reproduced.
