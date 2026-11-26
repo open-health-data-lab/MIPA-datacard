@@ -38,7 +38,7 @@ Illustrative comparison; several differences fall within 95% confidence interval
 - **GPT-4o (zero-shot):** Highest F1 in 12/16 phenotypes (mean 0.85).
 - **ICD heuristics:** Strong in well-coded diseases (HF, cancer).
 - **Keyword TF-IDF:** Best for depression and obesity.
-- **Supervised ML (silver labels):** Moderate performance (mean F1 0.43), phenotype-specific.
+- **Supervised ML (silver labels):** Moderate performance (mean F1 0.44), phenotype-specific.
 
 **Access:**
 
