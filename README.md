@@ -39,7 +39,7 @@ MIPA fills this gap by providing gold-standard, manually annotated labels across
 - **Pre-consensus agreement:**
   - Document-level κ = **0.805** (near-perfect).
   - Label-level κ = **0.771** (substantial).
-- **Exclusions:** 70/1,458 (4.8%): 31 under the rejection rule and 39 without consensus after joint review. Consensus was reached for 717 of the 788 summaries with any disagreement (91%).
+- **Exclusions:** 70/1,458 (4.8%): 31 under the rejection rule and 39 without consensus after joint review. Consensus was reached for 718 of the 788 summaries with any disagreement (91%).
 - **Accepted:** Final dataset of **1,388 discharge summaries**.
 
 
